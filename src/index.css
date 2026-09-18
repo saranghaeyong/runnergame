@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', monospace, sans-serif;
+}
+
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Neon glow helper classes */
+.neon-glow-red {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 25px rgba(220, 38, 38, 0.5);
+}
+
+.neon-glow-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.7), 0 0 25px rgba(8, 145, 178, 0.5);
+}
+
+.neon-glow-gold {
+  text-shadow: 0 0 10px rgba(234, 179, 8, 0.7), 0 0 25px rgba(202, 138, 4, 0.5);
+}
+
+.neon-box-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.35), inset 0 0 15px rgba(239, 68, 68, 0.15);
+}
+
+.neon-box-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.35), inset 0 0 15px rgba(6, 182, 212, 0.15);
+}

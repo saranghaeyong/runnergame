@@ -1,0 +1,6 @@
+{
+  "name": "SRN CINEMAS: NEON RUN",
+  "description": "A cinematic neon endless runner game by SRN Cinemas. Lights. Camera. RUN!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
